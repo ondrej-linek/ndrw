@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Lust'; 
-  src: url('fonts/22005.otf') format('opentype');
+  src: url('/fonts/22005.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -21,6 +21,8 @@ h2 {
 }
 
 .u-section-1 .u-text-1 {
+  font-family: 'Lust', sans-serif !important;
+  font-weight: 500;
   margin: 110px auto 0 0;
 }
 
