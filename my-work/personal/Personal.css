@@ -1342,17 +1342,27 @@ h2 {
   left: 0 !important;
   width: 100vw !important;
   height: 100vh !important;
-  background-color: #1a1a1a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #1a1a1a !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   z-index: 2147483647 !important; 
   transition: opacity 0.8s ease;
-
   pointer-events: all;
 }
 
+#preloader.faded {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.loader-content h2 {
+  color: #ffffff !important;
+  font-family: 'Lust', serif !important;
+  font-size: 3rem !important;
+  margin: 0 !important;
+}
+
 body.loading {
-  overflow: hidden;
-  pointer-events: none;
+  overflow: hidden !important;
 }
