@@ -75,17 +75,18 @@
         <p class="u-align-right u-text u-text-default u-text-1"> © 2026 all rights reserved</p>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80"></section>
-  <script>
-    document.body.classList.add('loading');
-    function hidePreloader() {
-      const preloader = document.getElementById('preloader');
-      if (preloader) {
-        preloader.style.opacity = '0';
-        document.body.classList.remove('loading');
-        setTimeout(() => { preloader.style.display = 'none'; }, 800);
-      }
+<script>
+  function hidePreloader() {
+    const preloader = document.getElementById('preloader');
+    if (preloader) {
+      preloader.classList.add('faded');
+      document.body.classList.remove('loading');
+      setTimeout(() => {
+        preloader.style.display = 'none';
+      }, 800);
     }
-    window.addEventListener('load', hidePreloader);
-    setTimeout(hidePreloader, 8000); 
-  </script>
+  }
+  window.addEventListener('load', hidePreloader);
+  setTimeout(hidePreloader, 8000); 
+</script>
 </body></html>
