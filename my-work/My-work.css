@@ -3,6 +3,11 @@
   src: url('../fonts/22005.otf') format('opentype');
 }
 
+header {
+  align-items: center;
+  justify-content: center;
+}
+
 h2, .u-section-1 {
   background-position: 50% 50%;
   background-repeat: no-repeat;
