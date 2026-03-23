@@ -150,8 +150,11 @@ h2, .u-section-1 .u-text-1 {
   align-items: center;
   z-index: 2147483647 !important; 
   transition: opacity 0.8s ease;
+
+  pointer-events: all;
 }
 
 body.loading {
   overflow: hidden;
+  pointer-events: none;
 }
