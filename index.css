@@ -9,9 +9,26 @@ h2 {
   font-family: 'Lust', sans-serif !important;
 }
 
+body {
+  background-image: url("images/ffffff.png") !important; 
+  background-repeat: repeat !important;
+  background-position: top center !important;
+  background-size: 100% auto !important;
+  background-attachment: scroll !important;
+}
+
+.u-section-1, 
+.u-section-2, 
+.u-section-3, 
+.u-section-4 {
+  background-image: none !important;
+  background-color: transparent !important;
+  min-height: auto !important;
+}
+
 .u-section-1 {
   background-position: 50% 50%;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-image: url("images/ffffff.png");
   background-size: cover;
   min-height: 1035px;
