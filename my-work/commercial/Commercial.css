@@ -3,7 +3,7 @@
   src: url('../../fonts/22005.otf') format('opentype');
 }
 
-h2, .u-text-1 {
+h2 {
   font-family: 'Lust', sans-serif !important;
 }
 
