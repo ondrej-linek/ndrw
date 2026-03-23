@@ -3,36 +3,7 @@
   src: url('../fonts/22005.otf') format('opentype');
 }
 
-.u-header {
-  min-height: 80px !important;
-}
-
-.u-header .u-sheet-1 {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  min-height: 80px !important;
-  max-width: 1140px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-.u-header .u-logo {
-  margin-left: 0 !important;
-}
-
-.u-header .u-menu {
-  margin-right: 0 !important;
-  margin-left: auto !important;
-}
-
-.u-logo-image-1 {
-  width: 150px !important;
-  height: auto !important;
-}
-
-.u-section-1 {
+h2, .u-section-1 {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-image: url("../images/ffffff.png");
@@ -173,7 +144,7 @@ h2, .u-section-1 .u-text-1 {
   left: 0 !important;
   width: 100vw !important;
   height: 100vh !important;
-  background-color: #1a1a1a;
+  background-color: #1a1a1a !important;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
@@ -185,4 +156,15 @@ h2, .u-section-1 .u-text-1 {
 #preloader.faded {
   opacity: 0 !important;
   pointer-events: none !important;
+}
+
+.loader-content h2 {
+  color: #ffffff !important;
+  font-family: 'Lust', serif !important;
+  font-size: 3rem !important;
+  margin: 0 !important;
+}
+
+body.loading {
+  overflow: hidden !important;
 }
