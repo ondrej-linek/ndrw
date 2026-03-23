@@ -3,9 +3,36 @@
   src: url('../fonts/22005.otf') format('opentype');
 }
 
-header {
-  align-items: center;
-  justify-content: center;
+/* --- VERTICAL CENTER + HORIZONTAL GAP --- */
+.u-header .u-sheet-1 {
+  display: flex !important;
+  flex-direction: row !important;
+  /* 1. This keeps your GIANT GAP */
+  justify-content: space-between !important; 
+  /* 2. This forces VERTICAL CENTERING */
+  align-items: center !important;            
+  
+  min-height: 80px !important; /* Match this to your header's height */
+}
+
+/* Kill any rogue margins Nicepage added to the logo or menu */
+.u-header .u-logo, 
+.u-header .u-menu {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  vertical-align: middle !important;
+}
+
+/* Ensure the logo behaves like a flex item */
+.u-header .u-logo {
+  display: flex !important;
+  align-items: center !important;
+  margin-left: 0 !important; /* Keep it to the far left */
+}
+
+/* Ensure the menu behaves like a flex item */
+.u-header .u-menu {
+  margin-right: 0 !important; /* Keep it to the far right */
 }
 
 h2, .u-section-1 {
