@@ -24,7 +24,13 @@
     <meta property="og:title" content="My work">
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-path-to-root="../" data-include-products="false" class="u-body u-clearfix u-xl-mode" data-lang="en"><header class="u-clearfix u-gradient u-header u-header" id="header"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+  <body data-path-to-root="../" data-include-products="false" class="u-body u-clearfix u-xl-mode" data-lang="en">
+	  	  <div id="preloader">
+  <div class="loader-content">
+    <div class="spinner"></div>
+    <p>Loading...</p>
+  </div>
+	  <header class="u-clearfix u-gradient u-header u-header" id="header"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
         <a href="#" class="u-image u-logo u-image-1" data-image-width="445" data-image-height="114">
           <img src="../images/1NDRW_WATERMARK_WHITE.png" class="u-logo-image u-logo-image-1">
         </a>
@@ -75,5 +81,19 @@
         <p class="u-align-right u-text u-text-default u-text-1"> © 2026 all rights reserved</p>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80"></section>
-  
+  function hidePreloader() {
+    const preloader = document.getElementById('preloader');
+    if (preloader) {
+      preloader.style.opacity = '0';
+      document.body.classList.remove('loading');
+      setTimeout(() => {
+        preloader.style.display = 'none';
+      }, 800);
+    }
+  }
+
+  window.addEventListener('load', hidePreloader);
+
+  setTimeout(hidePreloader, 8000); 
+</script>
 </body></html>
