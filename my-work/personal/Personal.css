@@ -1,4 +1,13 @@
- .u-section-1 {
+@font-face {
+  font-family: 'Lust';
+  src: url('../../fonts/22005.otf') format('opentype');
+}
+
+h2, .u-text-1 {
+  font-family: 'Lust', sans-serif !important;
+}
+
+.u-section-1 {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-image: url("../../images/ffffff.png");
