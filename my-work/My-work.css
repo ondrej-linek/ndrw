@@ -1,0 +1,134 @@
+ .u-section-1 {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url("../images/ffffff.png");
+  background-size: cover;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 773px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 110px auto 0 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 560px;
+  min-height: 322px;
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url("../images/btnPerson0.png");
+  background-size: cover;
+  transition-duration: 0.5s;
+  --radius: 20px;
+  margin: 41px auto 0 0;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-image-2 {
+  width: 560px;
+  min-height: 322px;
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url("../images/btnCom0.png");
+  background-size: cover;
+  transition-duration: 0.5s;
+  --radius: 20px;
+  margin: -322px 0 60px auto;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 637px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: auto;
+  }
+
+  .u-section-1 .u-image-2 {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 488px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 344px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 114px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 340px;
+  }
+}
+
+.u-section-1 .u-image-1,
+.u-section-1 .u-image-1:before,
+.u-section-1 .u-image-1 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-1 .u-image-1:before {
+  background-image: url(../images/btnPerson1.png) !important;
+}
+
+.u-section-1 .u-image-1:before {
+  background-image: url(../images/btnPerson1.png) !important;
+}
+
+.u-section-1 .u-image-2,
+.u-section-1 .u-image-2:before,
+.u-section-1 .u-image-2 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-1 .u-image-2:before {
+  background-image: url(../images/btnCom1.png) !important;
+}
+
+.u-section-1 .u-image-2:before {
+  background-image: url(../images/btnCom1.png) !important;
+}
