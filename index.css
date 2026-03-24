@@ -270,7 +270,7 @@ body {
 
   .u-section-3 .u-gallery-2 {
     height: 256px;
-    margin-top: 20px;
+    margin-top: 444px;
   }
 
   .u-section-3 .u-btn-1 {
@@ -293,7 +293,7 @@ body {
 
   .u-section-3 .u-gallery-2 {
     height: 784px;
-    margin-top: 20px;
+    margin-top: 802px;
   }
 
   .u-section-3 .u-gallery-inner-2 {
@@ -321,7 +321,7 @@ body {
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: auto;
+    min-height: 1832px;
   }
 
   .u-section-3 .u-gallery-1 {
