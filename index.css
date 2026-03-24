@@ -42,10 +42,6 @@ body {
   font-weight: bold !important;
 }
 
-.contact-socials p:hover a {
-  font-weight: 900 !important;
-}
-
 .u-section-4 .u-btn-2:hover {
   font-size: inherit !important;
 }
@@ -54,7 +50,7 @@ body {
   display: flex !important;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 100px !important;
+  gap: 80px !important;
   margin-top: 40px !important;
   align-items: center;
 }
