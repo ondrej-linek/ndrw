@@ -541,10 +541,11 @@ h2 {
 }
 
 .u-section-6 .u-image-1 {
-  height: auto;
-  width: 100%;
+  width: 100% !important;
+  height: auto !important;
   max-width: 100%;
   margin-top: 11px;
+  display: block;
 }
 
 .u-section-6 .u-gallery-1 {
