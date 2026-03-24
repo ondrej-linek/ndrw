@@ -50,7 +50,7 @@ body {
   display: flex !important;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 80px !important;
+  gap: 50px !important;
   margin-top: 40px !important;
   align-items: center;
 }
