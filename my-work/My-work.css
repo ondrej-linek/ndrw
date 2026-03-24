@@ -12,6 +12,10 @@
   margin-top: 40px;
 }
 
+.u-image-1 .u-image-2 {
+  border-radius: 10px;
+}
+
 .u-header .u-sheet-1 {
   display: flex !important;
   flex-direction: row !important;
