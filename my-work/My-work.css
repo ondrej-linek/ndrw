@@ -3,14 +3,6 @@
   src: url('../fonts/22005.otf') format('opentype');
 }
 
-.hover-darken {
-  transition: filter 0.3s ease; 
-}
-
-.hover-darken:hover {
-  filter: brightness(0.9);
-}
-
 .container-images {
   display: flex;
   flex-wrap: wrap;
