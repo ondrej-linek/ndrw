@@ -12,12 +12,6 @@
   margin-top: 40px;
 }
 
-@media (max-width: 767px) {
-  footer {
-    margin-top: 40px;
-  }
-}
-
 .u-header .u-sheet-1 {
   display: flex !important;
   flex-direction: row !important;
@@ -85,6 +79,7 @@ h2, .u-section-1 .u-text-1 {
 @media (max-width: 767px) {
   .container-images {
     flex-direction: column;
+    margin-bottom: 40px;
   }
   
   .u-section-1 .u-image-1, 
