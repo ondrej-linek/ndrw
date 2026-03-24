@@ -1,8 +1,6 @@
 @font-face {
   font-family: 'Lust'; 
-  src: url('../fonts/22005.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
+  src: url('../../fonts/22005.otf') format('opentype');
 }
 
 h2 {
