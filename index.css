@@ -46,17 +46,17 @@ body {
   font-size: inherit !important;
 }
 
-.social-container {
+.contact-socials {
   display: flex !important;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 50px;
-  margin-top: 30px !important;
+  gap: 100px !important;
+  margin-top: 40px !important;
   align-items: center;
 }
 
 @media (max-width: 767px) {
-  .social-container {
+  .contact-socials {
     flex-direction: column !important;
     align-items: flex-start !important;
     gap: 20px;
