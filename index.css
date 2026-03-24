@@ -434,6 +434,12 @@ body {
   }
 }
 
+.container-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .u-section-4 .u-btn-2,
 .u-section-4 .u-btn-2:before,
 .u-section-4 .u-btn-2 > .u-container-layout:before {
