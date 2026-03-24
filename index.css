@@ -475,3 +475,30 @@ body {
 body.loading {
   overflow: hidden;
 }
+
+.u-section-3 .u-gallery-1, 
+.u-section-3 .u-gallery-2 {
+  height: auto !important;
+  min-height: auto !important;
+}
+
+.u-section-3 .u-gallery-2 {
+  margin-top: 20px !important;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: auto !important;
+  padding-bottom: 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-gallery-2 {
+    margin-top: 20px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-gallery-2 {
+    margin-top: 20px !important;
+  }
+}
