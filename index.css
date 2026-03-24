@@ -32,6 +32,18 @@ body {
   margin: 0 !important;
   display: inline-block !important;
   width: auto !important;
+  transition: transform 0.3s ease, font-weight 0.3s ease !important;
+}
+
+.u-section-4 .u-text-5:hover, 
+.u-section-4 .u-text-6:hover, 
+.u-section-4 .u-text-7:hover {
+  transform: scale(1.05) !important;
+  font-weight: bold !important;
+}
+
+.u-section-4 .u-btn-2:hover {
+  font-size: inherit !important;
 }
 
 .social-container {
