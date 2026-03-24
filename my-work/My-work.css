@@ -12,6 +12,12 @@
   margin-top: 40px;
 }
 
+@media (max-width: 767px) {
+  footer {
+    margin-top: 40px;
+  }
+}
+
 .u-header .u-sheet-1 {
   display: flex !important;
   flex-direction: row !important;
