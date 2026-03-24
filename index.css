@@ -42,6 +42,10 @@ body {
   font-weight: bold !important;
 }
 
+.contact-socials p:hover a {
+  font-weight: 900 !important;
+}
+
 .u-section-4 .u-btn-2:hover {
   font-size: inherit !important;
 }
