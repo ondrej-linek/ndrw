@@ -261,7 +261,7 @@ body {
 
 @media (max-width: 1199px) {
   .u-section-3 .u-sheet-1 {
-    min-height: auto;
+    min-height: 788;
   }
 
   .u-section-3 .u-gallery-1 {
@@ -280,7 +280,7 @@ body {
 
 @media (max-width: 991px) {
   .u-section-3 .u-sheet-1 {
-    min-height: auto;
+    min-height: 1851px;
   }
 
   .u-section-3 .u-gallery-1 {
@@ -303,7 +303,7 @@ body {
 
 @media (max-width: 767px) {
   .u-section-3 .u-sheet-1 {
-    min-height: auto;
+    min-height: 2839px;
   }
 
   .u-section-3 .u-gallery-1 {
