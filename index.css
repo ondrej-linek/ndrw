@@ -69,6 +69,10 @@ body {
     gap: 5px !important;
     margin-top: 5px !important;
   }
+
+  footer {
+    margin-top: 10px;
+  }
 }
 
 .u-section-1 {
