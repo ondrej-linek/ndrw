@@ -38,7 +38,7 @@ body {
   display: flex !important;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 50px;
   margin-top: 30px !important;
   align-items: center;
 }
