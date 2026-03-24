@@ -547,9 +547,11 @@ h2 {
 }
 
 .u-section-6 .u-image-1 {
-  height: 228px;
+  width: 100% !important;
+  height: auto !important;
   margin-top: 11px;
   margin-bottom: 0;
+  display: block;
 }
 
 .u-section-6 .u-gallery-1 {
