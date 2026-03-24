@@ -211,7 +211,7 @@ body {
 
 .u-section-3 .u-gallery-inner-1 {
   --gap: 20px;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .u-section-3 .u-over-slide-1 {
@@ -237,7 +237,7 @@ body {
 
 .u-section-3 .u-gallery-inner-2 {
   --gap: 20px;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .u-section-3 .u-over-slide-4 {
