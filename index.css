@@ -132,6 +132,12 @@ body {
   }
 }
 
+@media(min-width: 2000px) {
+  .u-section-1 .u-image-3 {
+    height: 500px;
+  }
+}
+
 @media (max-width: 991px) {
   .u-section-1 .u-image-1 {
     width: 720px;
