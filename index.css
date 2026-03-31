@@ -81,6 +81,7 @@ body {
   background-image: url("images/ffffff.png");
   background-size: cover;
   min-height: 1035px;
+  margin-bottom: 200px;
 }
 
 .u-section-1 .u-image-1 {
@@ -488,6 +489,7 @@ body {
   text-align: center;
   color: white;
   font-family: 'Inter', sans-serif;
+}
 
 body.loading {
   overflow: hidden;
